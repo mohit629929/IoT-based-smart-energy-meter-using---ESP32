@@ -1,6 +1,6 @@
 ## Introduction
 
-In today's technologically advanced world, energy management is a critical aspect of modern smart homes. Traditional energy meters, while functional, often lack the capability for real-time monitoring and remote access. The advent of IoT (Internet of Things) has revolutionized this space, enabling the creation of smart energy meters that offer precise, real-time monitoring and control. In this article, we present a comprehensive guide to building a Smart IoT Energy Meter using the ESP32 microcontroller, ACS712 current sensor, ZMPT101B voltage sensor, I2C LCD display, Blynk 2.0 platform, and Telegram bot integration.
+In today's technologically advanced world, energy management is a critical aspect of modern smart homes. Traditional energy meters, while functional, often lack the capability for real-time monitoring and remote access. The advent of IoT (Internet of Things) has revolutionized this space, enabling the creation of smart energy meters that offer precise, real-time monitoring and control. In this article, we present a comprehensive guide to building a Smart IoT Energy Meter using the ESP32 microcontroller, ACS712 current sensor, ZMPT101B voltage sensor, I2C LCD display, Blynk 2.0 platform.
 
 ## Components and Tools
 
@@ -71,7 +71,7 @@ In today's technologically advanced world, energy management is a critical aspec
 
 ## Conclusion
 
-This smart IoT energy meter offers a comprehensive solution for monitoring and managing household energy consumption. The integration with Blynk 2.0 provides an intuitive user interface for real-time data visualization, while the Telegram bot adds layer of convenience with automated billing notifications. By leveraging modern IoT technologies, this project helps monitor energy consumption and contributes to energy conservation efforts.
+This smart IoT energy meter offers a comprehensive solution for monitoring and managing household energy consumption. The integration with Blynk 2.0 provides an intuitive user interface for real-time data visualization. By leveraging modern IoT technologies, this project helps monitor energy consumption and contributes to energy conservation efforts.
 
 ## Future Enhancements
 
