@@ -14,7 +14,7 @@ In today's technologically advanced world, energy management is a critical aspec
 ### Software Tools
 - **Arduino IDE**: For programming the ESP32.
 - **Blynk 2.0**: For creating a web and mobile dashboard for monitoring and control.
-- **Telegram**: For notifications and alerts via a Telegram bot.
+
 
 ### Connections
 - **ZMPT101B Voltage Sensor**:
@@ -52,12 +52,7 @@ In today's technologically advanced world, energy management is a critical aspec
 - **Web Dashboard**: Add widgets like Gauges, Displays, etc., and link them to the corresponding datastreams.
 - **Mobile Dashboard**: Use the Blynk app to configure similar widgets for real-time monitoring on your smartphone.
 
-### 2. **Creating a Telegram Bot**
-
-1. **Create a Bot** using BotFather in the Telegram app.
-2. Save the **Bot Token** and obtain your **Chat ID** using a bot like `@userinfobot`.
-
-### 3. **Programming the ESP32**
+### 2. **Programming the ESP32**
 
 #### Libraries Required
 - **WiFi.h**: For Wi-Fi connectivity.
@@ -66,7 +61,7 @@ In today's technologically advanced world, energy management is a critical aspec
 - **LiquidCrystal_I2C.h**: For LCD control.
 - **UniversalTelegramBot.h**: For Telegram bot integration.
 
-### 4. **Calculating Energy and Cost**
+### 3. **Calculating Energy and Cost**
 
 - **Voltage Measurement**: Convert the analog reading from the ZMPT101B sensor to the actual AC voltage.
 - **Current Measurement**: Convert the analog reading from the ACS712 sensor to the actual AC.
